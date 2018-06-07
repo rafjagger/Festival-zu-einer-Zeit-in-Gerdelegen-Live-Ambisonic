@@ -1,2 +1,2 @@
 # hello-world
-my first repo
+my first Project is about Ambisonic on a selfbuild PA-System ...
