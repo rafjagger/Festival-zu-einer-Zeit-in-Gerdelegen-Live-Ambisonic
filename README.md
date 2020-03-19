@@ -1,4 +1,4 @@
-# Zu-Einer-Zeit-In-Gardelegen Festival Live-Ambisonic
+# Festival "zu einer Zeit in Gardelegen" Live-Ambisonic.
 
 my first Project is about Ambisonic on a selfbuild PA-System ...
 
