@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <!-- AMB order 3,1 panner -->
+ <Plugin>
+  <Info>
+   <Type>LADSPA</Type>
+   <Name>AMB order 3,1 panner</Name>
+   <Binary>/usr/lib/ladspa/ambisonic3.so</Binary>
+   <Label>Ambisonics-31-panner</Label>
+   <UniqueID>1963</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Elevation</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Azimuth</Name>
+    <Value>-68.2720565795898</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMB order 3,1 panner -->
+ <Plugin>
+  <Info>
+   <Type>LADSPA</Type>
+   <Name>AMB order 3,1 panner (2)</Name>
+   <Binary>/usr/lib/ladspa/ambisonic3.so</Binary>
+   <Label>Ambisonics-31-panner</Label>
+   <UniqueID>1963</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Elevation</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Azimuth</Name>
+    <Value>83.3823547363281</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMB order 3,1 panner -->
+ <Plugin>
+  <Info>
+   <Type>LADSPA</Type>
+   <Name>AMB order 3,1 panner (3)</Name>
+   <Binary>/usr/lib/ladspa/ambisonic3.so</Binary>
+   <Label>Ambisonics-31-panner</Label>
+   <UniqueID>1963</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Elevation</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Azimuth</Name>
+    <Value>-152.414215087891</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMB order 3,1 panner -->
+ <Plugin>
+  <Info>
+   <Type>LADSPA</Type>
+   <Name>AMB order 3,1 panner (4)</Name>
+   <Binary>/usr/lib/ladspa/ambisonic3.so</Binary>
+   <Label>Ambisonics-31-panner</Label>
+   <UniqueID>1963</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Elevation</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Azimuth</Name>
+    <Value>71.4285736083984</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>AMB order 3,1 panner:In</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>AMB order 3,1 panner (2):In</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_3</Source>
+   <Target>AMB order 3,1 panner (3):In</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_4</Source>
+   <Target>AMB order 3,1 panner (4):In</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_17</Source>
+   <Target>ambdec:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_17</Source>
+   <Target>ambdec-01:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_18</Source>
+   <Target>ambdec:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_18</Source>
+   <Target>ambdec-01:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_19</Source>
+   <Target>ambdec-01:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_19</Source>
+   <Target>ambdec:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_20</Source>
+   <Target>ambdec:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_20</Source>
+   <Target>ambdec-01:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_21</Source>
+   <Target>ambdec:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_21</Source>
+   <Target>ambdec-01:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_22</Source>
+   <Target>ambdec:in.3q</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_22</Source>
+   <Target>ambdec-01:in.3q</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_23</Source>
+   <Target>ambdec-01:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_23</Source>
+   <Target>ambdec:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S01</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S02</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S03</Source>
+   <Target>system:playback_3</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S04</Source>
+   <Target>system:playback_4</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S05</Source>
+   <Target>system:playback_5</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S06</Source>
+   <Target>system:playback_6</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S07</Source>
+   <Target>system:playback_7</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S08</Source>
+   <Target>system:playback_8</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S01</Source>
+   <Target>system:playback_9</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S02</Source>
+   <Target>system:playback_10</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S03</Source>
+   <Target>system:playback_11</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S04</Source>
+   <Target>system:playback_12</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S05</Source>
+   <Target>system:playback_13</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S06</Source>
+   <Target>system:playback_14</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner:Out-W</Source>
+   <Target>ambdec:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner:Out-W</Source>
+   <Target>system:playback_15</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner:Out-X</Source>
+   <Target>ambdec:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner:Out-Y</Source>
+   <Target>ambdec:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner:Out-U</Source>
+   <Target>ambdec:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner:Out-V</Source>
+   <Target>ambdec:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner:OUT-P</Source>
+   <Target>ambdec:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner:OUT-Q</Source>
+   <Target>ambdec:in.3q</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (2):Out-W</Source>
+   <Target>ambdec:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (2):Out-W</Source>
+   <Target>system:playback_15</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (2):Out-X</Source>
+   <Target>ambdec:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (2):Out-Y</Source>
+   <Target>ambdec:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (2):Out-U</Source>
+   <Target>ambdec:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (2):Out-V</Source>
+   <Target>ambdec:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (2):OUT-P</Source>
+   <Target>ambdec:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (2):OUT-Q</Source>
+   <Target>ambdec:in.3q</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (3):Out-W</Source>
+   <Target>ambdec-01:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (3):Out-X</Source>
+   <Target>ambdec-01:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (3):Out-Y</Source>
+   <Target>ambdec-01:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (3):Out-U</Source>
+   <Target>ambdec-01:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (3):Out-V</Source>
+   <Target>ambdec-01:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (3):OUT-P</Source>
+   <Target>ambdec-01:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (3):OUT-Q</Source>
+   <Target>ambdec-01:in.3q</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (4):Out-W</Source>
+   <Target>ambdec-01:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (4):Out-X</Source>
+   <Target>ambdec-01:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (4):Out-Y</Source>
+   <Target>ambdec-01:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (4):Out-U</Source>
+   <Target>ambdec-01:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (4):Out-V</Source>
+   <Target>ambdec-01:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (4):OUT-P</Source>
+   <Target>ambdec-01:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>AMB order 3,1 panner (4):OUT-Q</Source>
+   <Target>ambdec-01:in.3q</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>

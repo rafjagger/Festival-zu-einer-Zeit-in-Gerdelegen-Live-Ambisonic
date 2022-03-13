@@ -1,0 +1,54 @@
+# AmbDec configuration
+# Written by Ambisonic Decoder Toolbox, version 8.0
+# run by ra on  (x86_64-pc-linux-gnu) at 31-May-2018 03:42:21
+
+# input channel order: WYXVU
+
+/description     gardelegen-2o-aer_2h0p_allrad_5200_rE_max_2_band
+
+/version         	3
+
+/dec/chan_mask   	11b
+/dec/freq_bands  	2
+/dec/speakers    	6
+/dec/coeff_scale 	fuma
+
+/opt/input_scale  	fuma
+/opt/nfeff_comp   	output
+/opt/delay_comp   	on
+/opt/level_comp   	on
+/opt/xover_freq   	400.000000
+/opt/xover_ratio  	0.000000
+
+/speakers/{
+#            id      dist     azim     elev     conn
+#-----------------------------------------------------------------------
+add_spkr 	S01	 1.450000	-40.000000	 0.000000
+add_spkr 	S02	 1.450000	 40.000000	 0.000000
+add_spkr 	S03	 2.140000	-70.000000	 0.000000
+add_spkr 	S04	 2.140000	 70.000000	 0.000000
+add_spkr 	S05	 2.000000	-150.000000	 0.000000
+add_spkr 	S06	 2.000000	 150.000000	 0.000000
+/}
+
+/lfmatrix/{
+order_gain	1.000000	1.000000	1.000000	0.000000
+add_row 	 0.208953	-0.128243	 0.321226	-0.204891	 0.204684
+add_row 	 0.208951	 0.128247	 0.321222	 0.204891	 0.204681
+add_row 	 0.208963	-0.345721	 0.010644	-0.025390	-0.288498
+add_row 	 0.208959	 0.345720	 0.010647	 0.025388	-0.288494
+add_row 	 0.266629	-0.255418	-0.332587	 0.282954	 0.081683
+add_row 	 0.266642	 0.255422	-0.332588	-0.282956	 0.081680
+/}
+
+/hfmatrix/{
+order_gain	1.000000	0.866025	0.500000	0.000000
+add_row 	 0.208953	-0.128243	 0.321226	-0.204891	 0.204684
+add_row 	 0.208951	 0.128247	 0.321222	 0.204891	 0.204681
+add_row 	 0.208963	-0.345721	 0.010644	-0.025390	-0.288498
+add_row 	 0.208959	 0.345720	 0.010647	 0.025388	-0.288494
+add_row 	 0.266629	-0.255418	-0.332587	 0.282954	 0.081683
+add_row 	 0.266642	 0.255422	-0.332588	-0.282956	 0.081680
+/}
+
+/end

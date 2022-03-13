@@ -1,0 +1,600 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <!-- StereoEncoder -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Main</Name>
+   <Binary>/usr/lib/vst/StereoEncoder.so</Binary>
+   <UniqueID>1400128878</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>6</ControlChannel>
+   <Options>0x8</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Ambisonics Order</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Normalization</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Quaternion W</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Quaternion X</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Quaternion Y</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Quaternion Z</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Azimuth Angle</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Elevation Angle</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Roll Angle</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Stereo Width</Name>
+    <Value>0.65200001001358</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Sample-wise Panning</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- StereoEncoder -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Monitoring</Name>
+   <Binary>/usr/lib/vst/StereoEncoder.so</Binary>
+   <UniqueID>1400128878</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>5</ControlChannel>
+   <Options>0x8</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Ambisonics Order</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Normalization</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Quaternion W</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Quaternion X</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Quaternion Y</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Quaternion Z</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Azimuth Angle</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Elevation Angle</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Roll Angle</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Stereo Width</Name>
+    <Value>0.597222208976746</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Sample-wise Panning</Name>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- StereoEncoder -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>FX</Name>
+   <Binary>/usr/lib/vst/StereoEncoder.so</Binary>
+   <UniqueID>1400128878</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <Volume>0</Volume>
+   <ControlChannel>3</ControlChannel>
+   <Options>0x8</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Ambisonics Order</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Normalization</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Quaternion W</Name>
+    <Value>0.987000048160553</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Quaternion X</Name>
+    <Value>0.496000021696091</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Quaternion Y</Name>
+    <Value>0.611000001430511</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Quaternion Z</Name>
+    <Value>0.51800000667572</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Azimuth Angle</Name>
+    <MidiCC>12</MidiCC>
+    <MidiChannel>16</MidiChannel>
+    <Value>0.511805534362793</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Elevation Angle</Name>
+    <Value>0.428555548191071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Roll Angle</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Stereo Width</Name>
+    <MidiCC>13</MidiCC>
+    <MidiChannel>16</MidiChannel>
+    <Value>0.629916608333588</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Sample-wise Panning</Name>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>system:playback_15</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>Main:input_1</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>FX:input_1</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>pure_data:input0</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>system:playback_15</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>Main:input_2</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>FX:input_2</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_2</Source>
+   <Target>pure_data:input1</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_3</Source>
+   <Target>Monitoring:input_1</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_3</Source>
+   <Target>pure_data:input2</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_4</Source>
+   <Target>Monitoring:input_2</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_4</Source>
+   <Target>pure_data:input3</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_5</Source>
+   <Target>pure_data:input4</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_6</Source>
+   <Target>pure_data:input5</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_9</Source>
+   <Target>ambdec:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_10</Source>
+   <Target>ambdec:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_11</Source>
+   <Target>ambdec:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_12</Source>
+   <Target>ambdec:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_13</Source>
+   <Target>ambdec:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_14</Source>
+   <Target>ambdec:in.3q</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_15</Source>
+   <Target>ambdec:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_17</Source>
+   <Target>ambdec:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_17</Source>
+   <Target>ambdec-01:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_18</Source>
+   <Target>ambdec:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_18</Source>
+   <Target>ambdec-01:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_19</Source>
+   <Target>ambdec-01:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_19</Source>
+   <Target>ambdec:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_20</Source>
+   <Target>ambdec:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_20</Source>
+   <Target>ambdec-01:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_21</Source>
+   <Target>ambdec:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_21</Source>
+   <Target>ambdec-01:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_22</Source>
+   <Target>ambdec:in.3q</Target>
+  </Connection>
+  <Connection>
+   <Source>system:capture_23</Source>
+   <Target>ambdec:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S01</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S01</Source>
+   <Target>system:playback_17</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S02</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S02</Source>
+   <Target>system:playback_18</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S03</Source>
+   <Target>system:playback_3</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S03</Source>
+   <Target>system:playback_19</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S04</Source>
+   <Target>system:playback_4</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S04</Source>
+   <Target>system:playback_20</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S05</Source>
+   <Target>system:playback_5</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S05</Source>
+   <Target>system:playback_21</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S06</Source>
+   <Target>system:playback_6</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S06</Source>
+   <Target>system:playback_22</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S07</Source>
+   <Target>system:playback_7</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S07</Source>
+   <Target>system:playback_23</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec:out_S08</Source>
+   <Target>system:playback_8</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S01</Source>
+   <Target>system:playback_9</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S02</Source>
+   <Target>system:playback_10</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S03</Source>
+   <Target>system:playback_11</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S04</Source>
+   <Target>system:playback_12</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S05</Source>
+   <Target>system:playback_13</Target>
+  </Connection>
+  <Connection>
+   <Source>ambdec-01:out_S06</Source>
+   <Target>system:playback_14</Target>
+  </Connection>
+  <Connection>
+   <Source>Main:output_1</Source>
+   <Target>ambdec:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>Main:output_2</Source>
+   <Target>ambdec:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>Main:output_4</Source>
+   <Target>ambdec:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>Main:output_5</Source>
+   <Target>ambdec:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>Main:output_9</Source>
+   <Target>ambdec:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>Main:output_10</Source>
+   <Target>ambdec:in.3q</Target>
+  </Connection>
+  <Connection>
+   <Source>Main:output_16</Source>
+   <Target>ambdec:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>Monitoring:output_1</Source>
+   <Target>ambdec-01:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>Monitoring:output_2</Source>
+   <Target>ambdec-01:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>Monitoring:output_4</Source>
+   <Target>ambdec-01:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>Monitoring:output_5</Source>
+   <Target>ambdec-01:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>Monitoring:output_9</Source>
+   <Target>ambdec-01:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_1</Source>
+   <Target>ambdec:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_1</Source>
+   <Target>ambdec-01:in.0w</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_2</Source>
+   <Target>ambdec:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_2</Source>
+   <Target>ambdec-01:in.1y</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_4</Source>
+   <Target>ambdec-01:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_4</Source>
+   <Target>ambdec:in.1x</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_5</Source>
+   <Target>ambdec:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_5</Source>
+   <Target>ambdec-01:in.2v</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_9</Source>
+   <Target>ambdec:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_9</Source>
+   <Target>ambdec-01:in.2u</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_10</Source>
+   <Target>ambdec:in.3q</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_16</Source>
+   <Target>ambdec:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>FX:output_19</Source>
+   <Target>ambdec:in.3p</Target>
+  </Connection>
+  <Connection>
+   <Source>a2j:Pure Data [128] (capture): Pure Data Midi-Out 1</Source>
+   <Target>FX:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>a2j:Pure Data [128] (capture): Pure Data Midi-Out 1</Source>
+   <Target>Main:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>a2j:Pure Data [128] (capture): Pure Data Midi-Out 1</Source>
+   <Target>Monitoring:events-in</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>
